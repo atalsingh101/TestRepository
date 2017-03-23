@@ -21,6 +21,8 @@
 - (void)encodeWithCoder:(NSCoder *)coder {
     [coder encodeObject:self.name forKey:@"name"];
     [coder encodeObject:[NSNumber numberWithInt:self.age] forKey:@"age"];
+    
+    
 //    [coder encodeFloat:self.height forKey:ASCPersonHeight];
 }
 
@@ -28,6 +30,9 @@
 - (id)initWithCoder:(NSCoder *)coder {
     self = [super init];
     if (self) {
+        
+        
+        
         _name = [coder decodeObjectForKey:@"name"];
         _age = [[coder decodeObjectForKey:@"age"] intValue];
         //_height = [coder decodeFloatForKey:ASCPersonHeight];

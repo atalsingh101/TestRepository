@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E978F6241E84032500FDB1A6 /* TestControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E978F6231E84032500FDB1A6 /* TestControllerViewController.m */; };
 		E9918B4B1E4C58D700771CD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9918B4A1E4C58D700771CD2 /* main.m */; };
 		E9918B4E1E4C58D700771CD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9918B4D1E4C58D700771CD2 /* AppDelegate.m */; };
 		E9918B511E4C58D700771CD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9918B501E4C58D700771CD2 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E978F6221E84032500FDB1A6 /* TestControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestControllerViewController.h; sourceTree = "<group>"; };
+		E978F6231E84032500FDB1A6 /* TestControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestControllerViewController.m; sourceTree = "<group>"; };
 		E9918B461E4C58D700771CD2 /* KVCO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVCO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9918B4A1E4C58D700771CD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9918B4C1E4C58D700771CD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +107,8 @@
 		E9918B481E4C58D700771CD2 /* KVCO */ = {
 			isa = PBXGroup;
 			children = (
+				E978F6221E84032500FDB1A6 /* TestControllerViewController.h */,
+				E978F6231E84032500FDB1A6 /* TestControllerViewController.m */,
 				E9918B4C1E4C58D700771CD2 /* AppDelegate.h */,
 				E9918B4D1E4C58D700771CD2 /* AppDelegate.m */,
 				E9918B4F1E4C58D700771CD2 /* ViewController.h */,
@@ -284,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9918B511E4C58D700771CD2 /* ViewController.m in Sources */,
+				E978F6241E84032500FDB1A6 /* TestControllerViewController.m in Sources */,
 				E9918B7E1E4C598500771CD2 /* Employee.m in Sources */,
 				E9918B4E1E4C58D700771CD2 /* AppDelegate.m in Sources */,
 				E9918B4B1E4C58D700771CD2 /* main.m in Sources */,
